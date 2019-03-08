@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="#0e65b1"
+                android:text="客户服务"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image02"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:padding="10dp"
+                android:background="#f4f7f7"
+                android:textColor="#7f82e2"
+                android:textSize="18sp"
+                android:text="@string/scan_tip"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="520px">
+
+                        <ImageButton
+                            android:id="@+id/service1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5px"
+                            android:src="@drawable/service3"/>
+                        <ImageButton
+                            android:id="@+id/service2"
+                            android:layout_toRightOf="@id/service1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5px"
+                            android:src="@drawable/service2"/>
+
+            </RelativeLayout>
+
+</FrameLayout>
